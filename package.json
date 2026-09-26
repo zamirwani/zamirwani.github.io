@@ -1,0 +1,14 @@
+{
+  "name": "zamir-wani-github-pages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test scripts/site.test.mjs scripts/admin.test.mjs"
+  }
+}

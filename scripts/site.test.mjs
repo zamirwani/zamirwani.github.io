@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+import {resolve,dirname} from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {validate,safeUrl} from '../assets/schema.mjs';
+execFileSync(process.execPath,['scripts/build.mjs']);
+const content=JSON.parse(readFileSync('data/content.json','utf8'));
+test('Content validates; unsafe links are rejected',()=>{validate(content);assert.equal(safeUrl('javascript:alert(1)'),'');assert.equal(safeUrl('//evil.test'),'');const invalid=structuredClone(content);invalid.profile.scholarUrl='javascript:alert(1)';assert.throws(()=>validate(invalid));});
+test('Static homepage and required team categories are rendered',()=>{const home=readFileSync('_site/index.html','utf8'),group=readFileSync('_site/group.html','utf8');assert.match(home,/RF &amp; Microwave Lab@KU/);for(const id of ['phd','masters','jrf'])assert.match(group,new RegExp('id="'+id+'"'));assert.doesNotMatch(home,/<script/);});
+test('Relative assets and links resolve for all pages',()=>{for(const file of ['index.html','group.html','group/index.html','admin/index.html']){const full=resolve('_site',file),html=readFileSync(full,'utf8');for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){const url=match[1];if(/^(https?:|mailto:|#)/.test(url))continue;const target=resolve(dirname(full),url.split('#')[0]);assert.ok(existsSync(target),file+': missing '+url);}}});
