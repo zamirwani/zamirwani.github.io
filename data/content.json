@@ -1,0 +1,379 @@
+{
+  "profile": {
+    "name": "Dr. Zamir Wani",
+    "role": "Assistant Professor",
+    "department": "Electronics & Instrumentation Technology",
+    "institution": "University of Kashmir",
+    "portrait": "profile-admin.jpg",
+    "email": "zamirwani@uok.edu.in",
+    "location": "Srinagar, Jammu & Kashmir, India"
+  },
+  "appearance": {
+    "banner": "#374353",
+    "accent": "#415b71",
+    "background": "#ffffff"
+  },
+  "headings": {
+    "home": "Home",
+    "research": "Research",
+    "publications": "Publications",
+    "education": "Biography",
+    "group": "Research group",
+    "teaching": "Teaching",
+    "contact": "Contact",
+    "overview": "Research overview",
+    "interests": "Research interests",
+    "opportunities": "Prospective students",
+    "gallery": "Research in focus",
+    "project": "Funded research",
+    "papers": "Selected journal papers",
+    "books": "Books",
+    "patents": "Patents",
+    "qualifications": "Education",
+    "experience": "Academic & research experience",
+    "awards": "Awards & fellowships",
+    "service": "Professional service",
+    "courses": "Courses taught",
+    "teachingInterests": "Teaching interests",
+    "people": "People",
+    "links": "Academic links",
+    "updates": "Updates"
+  },
+  "home": {
+    "overview": "I am an Assistant Professor in the Department of Electronics & Instrumentation Technology at the University of Kashmir. I study antennas and engineered electromagnetic materials, with a focus on shaping radio waves for communication, sensing, and imaging.\n\nMy work spans microwave and millimeter-wave antenna systems, metasurfaces, MIMO architectures, and RF circuits. I received my Ph.D. from [IIT Delhi](https://home.iitd.ac.in/) and my M.Tech. from [IIITDM Jabalpur](https://www.iiitdmj.ac.in/).",
+    "opportunities": "I welcome inquiries from students interested in antennas, electromagnetics, and microwave imaging. Experience with electromagnetic simulation and RF circuit design is useful. Please send a CV and a short description of your research interests by email.\n\nResearch admissions and project appointments follow University procedures and formal advertisements. Contact me for the latest availability."
+  },
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.co.in/citations?user=rNYNazcAAAAJ&hl=en",
+      "icon": "scholar",
+      "iconImage": ""
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-0723-4825",
+      "icon": "orcid",
+      "iconImage": ""
+    },
+    {
+      "label": "University profile",
+      "url": "https://electronics.uok.edu.in/Main/ProfilePage.aspx?Profile=IRRTki5I",
+      "icon": "link",
+      "iconImage": ""
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/zamir-wani-38a74789/",
+      "icon": "linkedin",
+      "iconImage": ""
+    }
+  ],
+  "research": [
+    {
+      "title": "Lens Antennas",
+      "description": "Thin planar lenses that shape antenna wavefronts to improve gain and support multiple beams. The work explores metasurface and anisotropic designs for low-profile MIMO systems."
+    },
+    {
+      "title": "Reconfigurable Metasurfaces",
+      "description": "Planar electromagnetic structures for wave control, including reconfigurable surfaces, absorbers, and polarization conversion for communication and sensing."
+    },
+    {
+      "title": "Beamforming and MIMO Antennas",
+      "description": "Compact and high-gain antennas with multiple ports, switched beams, and steerable radiation patterns for microwave and millimetre-wave communication."
+    },
+    {
+      "title": "Microwave Imaging and Sensing Systems",
+      "description": "Frequency-diverse antennas and computational imaging methods for dielectric contrast mapping and non-contact sensing."
+    },
+    {
+      "title": "RF and Microwave Circuits",
+      "description": "Microwave components that combine filtering, radiation, reconfiguration, and energy harvesting for wireless and sensing applications."
+    },
+    {
+      "title": "Metamaterials and Anisotropic Media",
+      "description": "Engineered media for phase correction, enhanced aperture efficiency, and the routing of electromagnetic waves."
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Thin planar metasurface lens",
+      "description": "A thin resonator-based lens shapes the fields from a three-port antenna array into beams directed along different angles.",
+      "image": "assets/research/planar-lens.jpg",
+      "imageAlt": "Diagram of a lens above an antenna array, photograph of the fabricated lens, and a 29 GHz radiation pattern",
+      "caption": "Lens concept, fabricated prototype, and radiation pattern.",
+      "url": "https://doi.org/10.1109/TAP.2021.3098571",
+      "sourceLabel": "Figure from my research website",
+      "sourceUrl": "https://sites.google.com/view/zamirwani/research"
+    },
+    {
+      "title": "High-gain antenna structures",
+      "description": "Anisotropic high–low-epsilon media provide phase correction to improve antenna gain and aperture efficiency.",
+      "image": "assets/research/high-gain.jpg",
+      "imageAlt": "Fabricated metamaterial lens structures and an antenna measurement arrangement",
+      "caption": "Prototype imagery from the high-gain antenna study.",
+      "url": "https://doi.org/10.1109/TAP.2020.2983787",
+      "sourceLabel": "Figure from my research website",
+      "sourceUrl": "https://sites.google.com/view/zamirwani/research"
+    },
+    {
+      "title": "Multibeam radiation",
+      "description": "High-index slabs around an antenna redirect radiation into multiple beams, connecting engineered media with compact antenna design.",
+      "image": "assets/research/multibeam.jpg",
+      "imageAlt": "Multibeam antenna configuration, prototype photographs, and radiation patterns",
+      "caption": "A glimpse of the multibeam antenna work.",
+      "url": "https://doi.org/10.1109/LAWP.2024.3416051",
+      "sourceLabel": "Figure from my research website",
+      "sourceUrl": "https://sites.google.com/view/zamirwani/research"
+    }
+  ],
+  "publications": [
+    {
+      "citation": "Z. Wani and K. Saurav, “Generation of Multibeam Radiation Using an Array of High Refractive Index Vertical Slabs,” IEEE Antennas and Wireless Propagation Letters, vol. 23, no. 10, pp. 2939–2943, 2024.",
+      "url": "https://doi.org/10.1109/LAWP.2024.3416051"
+    },
+    {
+      "citation": "Z. Wani and S. K. Koul, “Millimeter Wave Beam-Tilted Antenna using 1D-Phase Gradient Metasurface,” International Journal of RF and Microwave Computer-Aided Engineering, vol. 32, no. 6, e23147, 2022.",
+      "url": "https://doi.org/10.1002/mmce.23147"
+    },
+    {
+      "citation": "Z. Wani, M. P. Abegaonkar and S. K. Koul, “Thin Planar Metasurface Lens for Millimeter Wave MIMO Applications,” IEEE Transactions on Antennas and Propagation, 2021.",
+      "url": "https://doi.org/10.1109/TAP.2021.3098571"
+    },
+    {
+      "citation": "Z. Wani, M. P. Abegaonkar and S. K. Koul, “High-Low-Epsilon Biaxial Anisotropic Lens for Enhanced Gain and Aperture Efficiency of a Linearly Polarized Antenna,” IEEE Transactions on Antennas and Propagation, vol. 68, no. 12, pp. 8133–8138, 2020.",
+      "url": "https://doi.org/10.1109/TAP.2020.2983787"
+    },
+    {
+      "citation": "Z. Wani, M. P. Abegaonkar and S. K. Koul, “Dual-Beam Antenna using Routing of Electromagnetic Waves by Single-Epsilon-High Anisotropic Medium at 28 GHz,” IEEE Transactions on Antennas and Propagation, vol. 68, no. 1, pp. 142–151, 2020.",
+      "url": "https://doi.org/10.1109/TAP.2019.2938793"
+    },
+    {
+      "citation": "Z. Wani, M. P. Abegaonkar and S. K. Koul, “Millimeter-Wave Antenna with Wide-Scan-Angle Radiation Characteristics for MIMO Applications,” International Journal of RF and Microwave Computer-Aided Engineering, vol. 29, no. 5, 2019.",
+      "url": "https://doi.org/10.1002/mmce.21564"
+    },
+    {
+      "citation": "Z. Wani, M. P. Abegaonkar and S. K. Koul, “A 28-GHz Antenna for 5G MIMO Applications,” Progress in Electromagnetics Research Letters, vol. 78, pp. 73–79, 2018.",
+      "url": "https://www.jpier.org/issues/volume.html?paper=18080403"
+    },
+    {
+      "citation": "Z. Wani and D. Kumar, “A Compact 4×4 MIMO Antenna for UWB Applications,” Microwave and Optical Technology Letters, 2016.",
+      "url": "https://doi.org/10.1002/mop.29840"
+    },
+    {
+      "citation": "Z. Wani and D. Kumar, “An Ultra-Wideband Antenna for Portable MIMO Terminals,” Microwave and Optical Technology Letters, 2016.",
+      "url": "https://doi.org/10.1002/mop.29498"
+    },
+    {
+      "citation": "Z. Wani and D. Kumar, “Dual-Band-Notched Antenna for UWB MIMO Applications,” International Journal of Microwave and Wireless Technologies, 2017.",
+      "url": "https://doi.org/10.1017/S175907871500152X"
+    }
+  ],
+  "books": [
+    {
+      "citation": "S. K. Koul and Z. Wani, Novel Millimetre Wave Antennas for MIMO and 5G Applications, Springer, Singapore, 2021.",
+      "url": "https://doi.org/10.1007/978-981-16-7278-1"
+    }
+  ],
+  "patents": [
+    {
+      "text": "“A Method for Gain and Aperture Efficiency Enhancement of a Linearly Polarized Antenna and System Thereof.” Granted Patent No. 477581."
+    },
+    {
+      "text": "“Multi-Beam Lens Antenna System for Millimeter-Wave 5G Massive MIMO Applications.” Indian Patent Application No. 202211010818, filed 28 February 2022."
+    }
+  ],
+  "education": [
+    {
+      "year": "2020",
+      "title": "Ph.D. in RF/Microwave Electronics",
+      "description": "Indian Institute of Technology Delhi\nCentre for Applied Research in Electronics"
+    },
+    {
+      "year": "2015",
+      "title": "M.Tech. in RF & Microwave Engineering",
+      "description": "Indian Institute of Information Technology, Design and Manufacturing Jabalpur\nElectronics & Communication Engineering"
+    },
+    {
+      "year": "2012",
+      "title": "M.Sc. in Electronics",
+      "description": "University of Kashmir\nUniversity Gold Medal"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2025–present",
+      "title": "Assistant Professor",
+      "description": "Department of Electronics & Instrumentation Technology, University of Kashmir"
+    },
+    {
+      "year": "2024–2025",
+      "title": "Assistant Professor/Junior Scientist",
+      "description": "Centre for Artificial Intelligence & Machine Learning, SKUAST-Kashmir"
+    },
+    {
+      "year": "2022–2024",
+      "title": "SERB National Postdoctoral Fellow",
+      "description": "Department of Electrical Engineering, IIT Jammu"
+    },
+    {
+      "year": "2021–2022",
+      "title": "Project Officer/Scientist",
+      "description": "IIT Jammu"
+    },
+    {
+      "year": "2020–2021",
+      "title": "Project Scientist",
+      "description": "IIT Delhi"
+    }
+  ],
+  "awards": [
+    {
+      "text": "PM Early Career Research Grant, ANRF, 2025."
+    },
+    {
+      "text": "SERB National Postdoctoral Fellowship, 2022–2024."
+    },
+    {
+      "text": "Raj Mittra Grant in India Award, 2018."
+    },
+    {
+      "text": "Visvesvaraya Ph.D. Fellowship, MeitY, 2016–2020."
+    },
+    {
+      "text": "GATE Fellowship for M.Tech., 2013–2015."
+    },
+    {
+      "text": "UGC-NET in Electronic Science, 2012."
+    },
+    {
+      "text": "University Gold Medal, University of Kashmir, 2012."
+    }
+  ],
+  "biography": {
+    "intro": "My academic work combines antenna design, electromagnetic materials, and microwave systems. Before joining the University of Kashmir, I held research and teaching appointments at SKUAST-Kashmir, IIT Jammu, and IIT Delhi.",
+    "service": "I review research for journals in antennas, electromagnetics, and microwave engineering, including IEEE Transactions on Antennas and Propagation, IEEE Antennas and Wireless Propagation Letters, IEEE Sensors Journal, and IEEE Access."
+  },
+  "group": {
+    "name": "RF & Microwave Lab@KU",
+    "description": "Our group investigates antenna systems, metasurfaces, microwave imaging, and RF sensing. We connect the design of electromagnetic structures with practical questions in wireless communication and non-contact measurement.",
+    "enquiries": "Interested in working with us? Email a CV and a short outline of your research interests. We welcome inquiries from prospective Ph.D. scholars and postgraduate students. Appointments and admissions are subject to University rules and formal advertisements."
+  },
+  "members": [
+    {
+      "name": "Dr. Zamir Ahmad Wani",
+      "category": "Faculty",
+      "role": "Assistant Professor · Group lead",
+      "research": "Antennas, metasurfaces, microwave imaging, and RF sensing",
+      "photo": "profile-admin.jpg",
+      "url": "https://electronics.uok.edu.in/Main/ProfilePage.aspx?Profile=IRRTki5I"
+    }
+  ],
+  "courses": [
+    {
+      "title": "RF & Microwave Circuit Design",
+      "description": ""
+    },
+    {
+      "title": "Electromagnetic Waves & Antennas",
+      "description": ""
+    },
+    {
+      "title": "Digital Communication Techniques",
+      "description": ""
+    },
+    {
+      "title": "Physics",
+      "description": ""
+    },
+    {
+      "title": "Consumer Electronics (Communication Appliances)",
+      "description": ""
+    }
+  ],
+  "teachingInterests": [
+    {
+      "title": "Electromagnetic Field Theory",
+      "description": ""
+    },
+    {
+      "title": "Antennas and radiating systems",
+      "description": ""
+    },
+    {
+      "title": "RF and microwave engineering",
+      "description": ""
+    },
+    {
+      "title": "Wireless communication",
+      "description": ""
+    },
+    {
+      "title": "Microwave sensing and imaging",
+      "description": ""
+    }
+  ],
+  "contact": {
+    "intro": "For research collaborations, student enquiries, and academic correspondence, please contact me by email.",
+    "address": "Room 24, 2nd Floor, Science Block\nDepartment of Electronics & Instrumentation Technology\nUniversity of Kashmir, Hazratbal\nSrinagar – 190006, Jammu & Kashmir, India",
+    "alumniEmail": "zmrwani@gmail.com",
+    "departmentUrl": "https://electronics.uok.edu.in/",
+    "departmentLabel": "Department website",
+    "alumniEmailLabel": ""
+  },
+  "bannerImage": {
+    "image": "assets/rfmw.svg",
+    "imageAlt": "RF and microwave engineering: Smith chart, antenna radiation pattern, plane wave, and microstrip circuit",
+    "caption": ""
+  },
+  "updates": [
+    {
+      "date": "Sep 2026",
+      "title": "JRF Oppurtunity",
+      "description": "Applications are invited for one JRF position in an ANRF-funded project under the PM Early Career Research Grant in our Lab.",
+      "page": "",
+      "url": "https://electronics.uok.edu.in/Files/9dd3b5ff-528d-48d4-8f52-9744caae7b65/Alert/JRF_Advt_PMECRG_ANRF_KU_6a826447-a1bb-4324-9cbc-e1650e56ea2c.pdf"
+    }
+  ],
+  "homeSections": [
+    {
+      "title": "Research overview",
+      "section": "overview",
+      "text": ""
+    },
+    {
+      "title": "Research in focus",
+      "section": "gallery",
+      "text": ""
+    },
+    {
+      "title": "Updates",
+      "section": "updates",
+      "text": ""
+    },
+    {
+      "title": "Prospective students",
+      "section": "opportunities",
+      "text": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "Development of Frequency-Diverse Microwave Imaging System for Dielectric Contrast Mapping",
+      "description": "This project combines frequency-diverse antenna design with computational reconstruction to study dielectric contrast via microwave imaging. ",
+      "funder": "Anusandhan National Research Foundation (ANRF)",
+      "scheme": "PM Early Career Research Grant",
+      "role": "Principal Investigator",
+      "period": "2025–2028",
+      "amount": "₹60.24 lakh",
+      "reference": "",
+      "showDescription": true,
+      "showFunder": true,
+      "showScheme": true,
+      "showRole": true,
+      "showPeriod": true,
+      "showAmount": true,
+      "showReference": false
+    }
+  ]
+}
